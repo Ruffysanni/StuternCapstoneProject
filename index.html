@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTE TAKING APPLICATION</title>
+    <!-- <link rel="stylesheet" href="/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/milligram.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Noteboard</h1>
+        <div id="write">
+            <label for="noteTitle">Note Title</label><br>
+            <input type="text" id="noteTitle"><br>
+            <label for="noteBody">Note</label><br>
+            <textarea id="noteBody"></textarea>
+            <button id="btnSave">Save Note</button>
+        </div>
+
+        <!-- write -->
+        <div id="read">
+            <button id="btnWrite">Write Note</button><br>
+            <select size="10" id="noteMaster"></select>
+            <div id="noteDisplay"></div>
+        </div>
+    </div>
+
+    <script src="/Note.js"></script>
+    <script src="/notes.js"></script>
+</body>
+</html>

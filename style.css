@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    padding: 15px;
+}
+
+#noteBody{
+    height: 200px;
+}
+
+select{
+    height: 200px !important;
+}
+
+#noteDisplay {
+    padding: 200px;
+    border: 1px solid #121212;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
